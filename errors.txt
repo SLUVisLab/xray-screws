@@ -1,13 +1,20 @@
-Error - Stream Handler: list index out of range, Image: 114907468_01.jpg, Line: 120
-Error - Image Cropper: zero-size array to reduction operation minimum which has no identity, Image: https://storage.labelbox.com/clg2m7dx5021r07061ukwbebf%2F8bcb3ab3-361c-4160-c95f-3ffaaa389ee9-00.jpg?Expires=1715442443762&KeyName=labelbox-assets-key-3&Signature=kg8VNUsWzGAuWsZlz4nDdAHk4aI, Line: 81
+Error - Image Cropper: zero-size array to reduction operation minimum which has no identity, Image: https://storage.labelbox.com/clg2m7dx5021r07061ukwbebf%2F8bcb3ab3-361c-4160-c95f-3ffaaa389ee9-00.jpg?Expires=1718227958839&KeyName=labelbox-assets-key-3&Signature=w1D9FaE7GFKqyLY4maKJkx2iLhE, Line: 93
 Error - Stream Handler: OpenCV(4.9.0) /Users/xperience/GHA-OpenCV-Python2/_work/opencv-python/opencv-python/opencv/modules/imgcodecs/src/loadsave.cpp:786: error: (-215:Assertion failed) !_img.empty() in function 'imwrite'
-, Image: 117373809_00.jpg, Line: 145
-Error - Stream Handler: list index out of range, Image: 115725428_02.jpg, Line: 120
-Error - Stream Handler: list index out of range, Image: 114907468_00.jpg, Line: 120
-Error - Stream Handler: list index out of range, Image: 116338696_04.jpg, Line: 120
-Error - Stream Handler: list index out of range, Image: 114037105_01.jpg, Line: 120
-Error - Stream Handler: list index out of range, Image: 116452937_00.jpg, Line: 120
-Error - Stream Handler: list index out of range, Image: 116452937_03.jpg, Line: 120
-Error - Image Cropper: HTTP Error 520: , Image: https://storage.labelbox.com/clg2m7dx5021r07061ukwbebf%2Fde6ae650-3fe2-d4ce-7637-028c8f703b64-03.jpg?Expires=1715442443958&KeyName=labelbox-assets-key-3&Signature=wCBKI4oGTJqlTDkgQh0pPOxuhes, Line: 71
+, Image: 117373809_00.jpg, Line: 157
+Error - Image Cropper: HTTP Error 520: , Image: https://storage.labelbox.com/clg2m7dx5021r07061ukwbebf%2F63f52dc3-9e82-a876-acad-6ee7fe735040-01.jpg?Expires=1718227958931&KeyName=labelbox-assets-key-3&Signature=CHSdf4DlIN4Z7SWYKOnz0B_KaSE, Line: 83
 Error - Stream Handler: OpenCV(4.9.0) /Users/xperience/GHA-OpenCV-Python2/_work/opencv-python/opencv-python/opencv/modules/imgcodecs/src/loadsave.cpp:786: error: (-215:Assertion failed) !_img.empty() in function 'imwrite'
-, Image: 114266257_03.jpg, Line: 145
+, Image: 114322642_01.jpg, Line: 157
+Error - Image Cropper: HTTP Error 524: , Image: https://storage.labelbox.com/clg2m7dx5021r07061ukwbebf%2Fc7a73e50-f25b-bf00-dadb-227c854a9c23-02.jpg?Expires=1718227958957&KeyName=labelbox-assets-key-3&Signature=qhhpcYO3Er4J5Yt4z-1L5S_At9c, Line: 83
+Error - Stream Handler: OpenCV(4.9.0) /Users/xperience/GHA-OpenCV-Python2/_work/opencv-python/opencv-python/opencv/modules/imgcodecs/src/loadsave.cpp:786: error: (-215:Assertion failed) !_img.empty() in function 'imwrite'
+, Image: 117246037_02.jpg, Line: 157
+Error - Image Cropper: HTTP Error 520: , Image: https://storage.labelbox.com/clg2m7dx5021r07061ukwbebf%2Fba5c3f6f-7c9d-216a-bfe1-26ecc442bfb1-01.jpg?Expires=1718227958960&KeyName=labelbox-assets-key-3&Signature=qyxBldIpRJdzbYT6n00cQ_BCbP0, Line: 83
+Error - Stream Handler: OpenCV(4.9.0) /Users/xperience/GHA-OpenCV-Python2/_work/opencv-python/opencv-python/opencv/modules/imgcodecs/src/loadsave.cpp:786: error: (-215:Assertion failed) !_img.empty() in function 'imwrite'
+, Image: 116050737_01.jpg, Line: 157
+Error - Image Cropper: HTTP Error 520: , Image: https://storage.labelbox.com/clg2m7dx5021r07061ukwbebf%2Fb4802666-0344-f309-a2f4-99e21b757f12-00.jpg?Expires=1718227959002&KeyName=labelbox-assets-key-3&Signature=0Ba0F4bcZlcA3ULMLqQ2Gv5jaXo, Line: 83
+Error - Stream Handler: OpenCV(4.9.0) /Users/xperience/GHA-OpenCV-Python2/_work/opencv-python/opencv-python/opencv/modules/imgcodecs/src/loadsave.cpp:786: error: (-215:Assertion failed) !_img.empty() in function 'imwrite'
+, Image: 3952985_00.jpg, Line: 157
+Error - Image Cropper: HTTP Error 520: , Image: https://storage.labelbox.com/clg2m7dx5021r07061ukwbebf%2F95a28864-7169-90e0-09ec-cdce4311b8a3-01.jpg?Expires=1718227959111&KeyName=labelbox-assets-key-3&Signature=g85bvNZeC0kmJwU209sZ8ffhJpo, Line: 83
+Error - Stream Handler: OpenCV(4.9.0) /Users/xperience/GHA-OpenCV-Python2/_work/opencv-python/opencv-python/opencv/modules/imgcodecs/src/loadsave.cpp:786: error: (-215:Assertion failed) !_img.empty() in function 'imwrite'
+, Image: 4551383_01.jpg, Line: 157
+xray count: 551
+Screw count: 3957
