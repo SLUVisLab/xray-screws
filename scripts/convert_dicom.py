@@ -64,11 +64,13 @@ def convert_dicom_to_jpeg(dicom_path: Path, output_base_dir: Path):
         new_filename = patient_output_dir / f"{len(existing_files):02d}.jpg"
 
         # Normalize pixel values
-        pixel_array = dataset.pixel_array
-        pixel_array = ((pixel_array - pixel_array.min()) / (pixel_array.max() - pixel_array.min())) * 255
-        pixel_array = pixel_array.astype(np.uint8)
+        pixel_array = dataset.pixel_array.astype(np.float32)  # Convert for scaling
+        if dataset.BitsAllocated == 16:
+            pixel_array = pixel_array / 65535 * 255  # Normalize from 16-bit to 8-bit
+        else:
+            pixel_array = ((pixel_array - pixel_array.min()) / (pixel_array.max() - pixel_array.min())) * 255
 
-        # Convert to image and save
+        pixel_array = pixel_array.astype(np.uint8)
         img = Image.fromarray(pixel_array)
         img.save(new_filename, quality=95)
 

@@ -41,7 +41,7 @@ dependencies:
   - freeglut=3.2.2
   - freetype=2.12.1
   - fribidi=1.0.10
-  - gdcm=2.8.9
+  - gdcm>=3.0.10
   - gdk-pixbuf=2.42.12
   - gettext=0.23.1
   - gettext-tools=0.23.1
@@ -202,6 +202,10 @@ dependencies:
   - python=3.10.16
   - python-dateutil=2.9.0.post0
   - python_abi=3.10
+  - pylibjpeg>=2.0
+  - pylibjpeg-libjpeg>=2.1
+  - pylibjpeg-openjpeg  # Optional: Support for additional JPEG formats
+  - pylibjpeg-rle 
   - pyzmq=26.2.1
   - qhull=2020.2
   - qt6-main=6.8.2
